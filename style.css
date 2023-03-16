@@ -6,8 +6,10 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  background: url(/image/wow.png);
+  background-size: cover;
   /* box-sizing: border-box; */
-  background: radial-gradient(circle, #c7c7c9, #d9480a);
+  /* background: radial-gradient(circle, #c7c7c9, #d9480a); */
   /* height: 100%; */
 }
 
@@ -373,7 +375,7 @@ td {
   font-family: Poppins;
   color: #ececec;
   border: 0px;
-  background-color: #050564;
+  background-color: #e26111;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   /* height: 50px;
@@ -404,7 +406,7 @@ td {
   font-family: Poppins;
   color: #ececec;
   border: 0px;
-  background-color: #050564;
+  background-color: #e26111;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   /* height: 2px;
@@ -443,6 +445,7 @@ td {
   font-family: Poppins;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  transition: all 0.3s ease-in-out;
   /* background-color: white;
   color: black;
   border-radius: 10em;
@@ -457,12 +460,12 @@ td {
 
 #reset-button:hover {
   transform: translateY(-4px) translateX(-2px);
-  /* box-shadow: 2px 5px 0 0 rgb(209, 205, 205); */
+  box-shadow: 2px 5px 5px 0 rgb(209, 205, 205);
 }
 
 #reset-button:active {
   transform: translateY(2px) translateX(1px);
-  /* box-shadow: 0 0 0 0 rgb(187, 178, 178); */
+  box-shadow: 0 0 0 0 rgb(187, 178, 178);
 }
 
 /* Responsive */
